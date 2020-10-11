@@ -33,5 +33,15 @@
     .slider-text{
         background-color: #24465454 !important;
     }
+    .trending-img{
+        height: 100px;
+    }
+    .tredning-item{
+        float: left;
+        width: 20%;
+    }
+    .trending-wrapper{
+        margin: 20px;
+    }
 </style>
 </html>
