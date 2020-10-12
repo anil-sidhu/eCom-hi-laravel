@@ -46,5 +46,8 @@
     .detail-img{
         height: 200px;
     }
+    .search-form{
+        width: 500px !important
+    }
 </style>
 </html>
