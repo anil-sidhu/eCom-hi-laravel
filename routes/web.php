@@ -15,9 +15,10 @@ use App\Http\Controllers\ProductController;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+Route::get('/logout', function () {
+    Session::forget('user');
+    return redirect('/login');
+});
 
 
 Route::view("/login","login");
